@@ -1,0 +1,17 @@
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header__btn {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../images/burger-menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+}

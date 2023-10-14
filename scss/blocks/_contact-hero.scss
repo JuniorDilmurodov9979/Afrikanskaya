@@ -1,0 +1,35 @@
+// .contact-hero {}
+.contact-hero__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 293px;
+    background-image: url(../../images/blogbg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-hero__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 74px; /* 168.182% */
+    letter-spacing: 1.76px;
+    text-align: center;
+    color: #fff;
+}
+.contact-hero__desc-wrapper {
+    max-width: 780px;
+    width: 100%;
+}
+.contact-hero__desc {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+}
